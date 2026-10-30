@@ -1,0 +1,461 @@
+[
+{
+"name": "Der Alchemist",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 176,
+"Lesezeit (Min.)": 260,
+"Erscheinungsjahr": 1988
+}
+},
+{
+"name": "QualityLand",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 384,
+"Lesezeit (Min.)": 570,
+"Erscheinungsjahr": 2017
+}
+},
+{
+"name": "Die Unendliche Geschichte",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 480,
+"Lesezeit (Min.)": 720,
+"Erscheinungsjahr": 1979
+}
+},
+{
+"name": "Der Herr der Ringe",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 1200,
+"Lesezeit (Min.)": 1800,
+"Erscheinungsjahr": 1954
+}
+},
+{
+"name": "Harry Potter und der Stein der Weisen",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 335,
+"Lesezeit (Min.)": 500,
+"Erscheinungsjahr": 1997
+
+}
+},
+{
+"name": "Der Schwarm",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 1000,
+"Lesezeit (Min.)": 1500,
+"Erscheinungsjahr": 2004
+}
+},
+{
+"name": "Die Verwandlung",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 96,
+"Lesezeit (Min.)": 140,
+"Erscheinungsjahr": 1915
+}
+},
+{
+"name": "Faust: Eine Tragödie",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 130,
+"Lesezeit (Min.)": 195,
+"Erscheinungsjahr": 1808
+}
+},
+{
+"name": "Homo Faber",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 208,
+"Lesezeit (Min.)": 310,
+"Erscheinungsjahr": 1957
+}
+},
+{
+"name": "1984",
+"kategorie": "Bücher",
+"meta": {
+"Seitenzahl": 320,
+"Lesezeit (Min.)": 480,
+"Erscheinungsjahr": 1949
+}
+},
+
+{
+"name": "Tetris",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 1984,
+"Speichergröße (GB)": 0.0001,
+"Plattformen": 65
+}
+},
+{
+"name": "Super Mario Bros.",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 1985,
+"Speichergröße (GB)": 4e-05,
+"Plattformen": 12
+}
+},
+{
+"name": "Pokémon Rote Edition",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 1996,
+"Speichergröße (GB)": 0.001,
+"Plattformen": 3
+}
+},
+{
+"name": "Minecraft",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2011,
+"Speichergröße (GB)": 1.5,
+"Plattformen": 22
+}
+},
+{
+"name": "Grand Theft Auto V",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2013,
+"Speichergröße (GB)": 110,
+"Plattformen": 7
+}
+},
+{
+"name": "The Witcher 3: Wild Hunt",
+
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2015,
+"Speichergröße (GB)": 50,
+"Plattformen": 5
+}
+},
+{
+"name": "Elden Ring",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2022,
+"Speichergröße (GB)": 60,
+"Plattformen": 5
+}
+},
+{
+"name": "Cyberpunk 2077",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2020,
+"Speichergröße (GB)": 70,
+"Plattformen": 5
+}
+},
+{
+"name": "Red Dead Redemption 2",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2018,
+"Speichergröße (GB)": 120,
+"Plattformen": 4
+}
+},
+{
+"name": "Baldur's Gate 3",
+"kategorie": "Videospiele",
+"meta": {
+"Release-Jahr": 2023,
+"Speichergröße (GB)": 150,
+"Plattformen": 3
+}
+},
+{
+"name": "Spiegelei",
+"kategorie": "Rezepte",
+"meta": {
+
+"Zutaten": 2,
+"Zubereitungszeit (Min.)": 5,
+"Schwierigkeitsgrad (1-3)": 1
+}
+},
+{
+"name": "Pasta aglio e olio",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 5,
+"Zubereitungszeit (Min.)": 15,
+"Schwierigkeitsgrad (1-3)": 1
+}
+},
+{
+"name": "Pfannkuchen",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 4,
+"Zubereitungszeit (Min.)": 20,
+"Schwierigkeitsgrad (1-3)": 1
+}
+},
+{
+"name": "Pizza Margherita",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 7,
+"Zubereitungszeit (Min.)": 40,
+"Schwierigkeitsgrad (1-3)": 2
+}
+},
+{
+"name": "Lasagne Bolognese",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 14,
+"Zubereitungszeit (Min.)": 90,
+"Schwierigkeitsgrad (1-3)": 2
+}
+},
+{
+"name": "Rindergulasch",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 10,
+"Zubereitungszeit (Min.)": 120,
+
+"Schwierigkeitsgrad (1-3)": 2
+}
+},
+{
+"name": "Sushi Rolls",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 8,
+"Zubereitungszeit (Min.)": 60,
+"Schwierigkeitsgrad (1-3)": 3
+}
+},
+{
+"name": "Französische Croissants",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 6,
+"Zubereitungszeit (Min.)": 180,
+"Schwierigkeitsgrad (1-3)": 3
+}
+},
+{
+"name": "Boeuf Bourguignon",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 12,
+"Zubereitungszeit (Min.)": 150,
+"Schwierigkeitsgrad (1-3)": 3
+}
+},
+{
+"name": "Wiener Schnitzel",
+"kategorie": "Rezepte",
+"meta": {
+"Zutaten": 7,
+"Zubereitungszeit (Min.)": 30,
+"Schwierigkeitsgrad (1-3)": 2
+}
+},
+{
+"name": "VW e-Up!",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 83,
+"Verbrauch (l oder kWh pro 100 km)": 14.5,
+"CO2-Ausstoß (g/km)": 0
+}
+
+},
+{
+"name": "Fiat 500",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 70,
+"Verbrauch (l oder kWh pro 100 km)": 4.6,
+"CO2-Ausstoß (g/km)": 105
+}
+},
+{
+"name": "VW Golf 8",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 150,
+"Verbrauch (l oder kWh pro 100 km)": 5.4,
+"CO2-Ausstoß (g/km)": 122
+}
+},
+{
+"name": "BMW M3",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 510,
+"Verbrauch (l oder kWh pro 100 km)": 9.8,
+"CO2-Ausstoß (g/km)": 223
+}
+},
+{
+"name": "Porsche 911 GT3",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 510,
+"Verbrauch (l oder kWh pro 100 km)": 13.0,
+"CO2-Ausstoß (g/km)": 294
+}
+},
+{
+"name": "Bugatti Chiron",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 1500,
+"Verbrauch (l oder kWh pro 100 km)": 22.5,
+"CO2-Ausstoß (g/km)": 516
+}
+},
+{
+
+"name": "Tesla Model 3 Long Range",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 498,
+"Verbrauch (l oder kWh pro 100 km)": 14.7,
+"CO2-Ausstoß (g/km)": 0
+}
+},
+{
+"name": "Toyota Prius Hybrid",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 122,
+"Verbrauch (l oder kWh pro 100 km)": 4.1,
+"CO2-Ausstoß (g/km)": 94
+}
+},
+{
+"name": "Ford F-150 Raptor",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 450,
+"Verbrauch (l oder kWh pro 100 km)": 15.6,
+"CO2-Ausstoß (g/km)": 353
+}
+},
+{
+"name": "Audi RS6 Avant",
+"kategorie": "Autos",
+"meta": {
+"Motorleistung (PS)": 600,
+"Verbrauch (l oder kWh pro 100 km)": 12.5,
+"CO2-Ausstoß (g/km)": 284
+}
+},
+{
+"name": "Monaco",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 0.039,
+"Fläche (km2)": 2,
+"Dichte (pro km2)": 19500
+}
+},
+{
+"name": "Mongolei",
+"kategorie": "Länder",
+
+"meta": {
+"Einwohner (Mio.)": 3.3,
+"Fläche (km2)": 1564000,
+"Dichte (pro km2)": 2
+}
+},
+{
+"name": "Island",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 0.37,
+"Fläche (km2)": 103000,
+"Dichte (pro km2)": 3.6
+}
+},
+{
+"name": "Deutschland",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 84.0,
+"Fläche (km2)": 357000,
+"Dichte (pro km2)": 235
+}
+},
+{
+"name": "Singapur",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 5.7,
+"Fläche (km2)": 728,
+"Dichte (pro km2)": 7800
+}
+},
+{
+"name": "Australien",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 26.0,
+"Fläche (km2)": 7692000,
+"Dichte (pro km2)": 3.4
+}
+},
+{
+"name": "Kanada",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 38.0,
+
+"Fläche (km2)": 9984000,
+"Dichte (pro km2)": 4
+}
+},
+{
+"name": "Bangladesch",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 169.0,
+"Fläche (km2)": 147570,
+"Dichte (pro km2)": 1145
+}
+},
+{
+"name": "Malta",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 0.52,
+"Fläche (km2)": 316,
+"Dichte (pro km2)": 1645
+}
+},
+{
+"name": "Namibia",
+"kategorie": "Länder",
+"meta": {
+"Einwohner (Mio.)": 2.5,
+"Fläche (km2)": 825615,
+"Dichte (pro km2)": 3
+}
+}
+]
