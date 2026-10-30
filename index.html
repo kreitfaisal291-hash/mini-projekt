@@ -7,18 +7,37 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="hintergrund"></div>
 <main>
+<header>
 <h1>Meine Bibliothek</h1>
-<p class="hinweis">Suche nach einem Eintrag, z. B. „Tetris“ oder „1984“.</p>
-<select id="filter">
-<option value="Alle">Alle Kategorien</option>
+<p class="untertitel">Durchsuche und filtere alle Einträge</p>
+<input id="suche" type="search" placeholder="Suchen ..." autocomplete="off">
+</header>
+<section class="filter">
+<div id="kategorien" class="chips"></div>
+<div class="filter-zeile">
+<label>Jahr von
+<input id="jahrVon" type="number" placeholder="z. B. 1990">
+</label>
+<label>Jahr bis
+<input id="jahrBis" type="number" placeholder="z. B. 2020">
+</label>
+<label>Sortieren
+<select id="sortierung">
+<option value="name">Name A–Z</option>
+<option value="jahrAuf">Jahr aufsteigend</option>
+<option value="jahrAb">Jahr absteigend</option>
 </select>
-<input id="suche" type="search" list="vorschlaege"
-placeholder="Name eingeben ..." autocomplete="off">
-<datalist id="vorschlaege"></datalist>
-<div id="liste"></div>
-<div id="ergebnis"></div>
+</label>
+<button id="zuruecksetzen" type="button">Zurücksetzen</button>
+</div>
+<p class="hinweis">Der Jahr-Filter gilt für Bücher und Videospiele.</p>
+<p id="zaehler"></p>
+</section>
+<section id="raster" class="raster"></section>
 </main>
+
 <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,236 @@
+* {
+box-sizing: border-box;
+}
+
+:root {
+--bg: #0b1020;
+--karte: #141a2e;
+--rand: #263050;
+--text: #e5e9f5;
+--grau: #8b94b3;
+--blau: #4f8cff;
+}
+
+body {
+margin: 0;
+font-family: system-ui, sans-serif;
+background: var(--bg);
+color: var(--text);
+min-height: 100vh;
+}
+
+/* Dezentes Hintergrund-Muster */
+.hintergrund {
+position: fixed;
+inset: 0;
+z-index: -1;
+background:
+radial-gradient(circle at 15% 20%,
+rgba(79, 140, 255, 0.10), transparent 40%),
+radial-gradient(circle at 85% 30%,
+rgba(168, 85, 247, 0.09), transparent 40%),
+radial-gradient(circle at 50% 90%,
+rgba(34, 197, 94, 0.06), transparent 45%),
+radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+background-size: auto, auto, auto, 28px 28px;
+}
+.hintergrund::before,
+.hintergrund::after {
+content: "";
+position: absolute;
+border: 1px solid rgba(255, 255, 255, 0.04);
+border-radius: 50%;
+}
+.hintergrund::before {
+width: 520px;
+height: 520px;
+top: -160px;
+right: -140px;
+}
+.hintergrund::after {
+width: 380px;
+height: 380px;
+bottom: -120px;
+left: -100px;
+}
+
+main {
+max-width: 1000px;
+margin: 0 auto;
+padding: 48px 16px 64px;
+}
+
+/* Kopfbereich mit zentrierter Suchleiste */
+header {
+text-align: center;
+margin-bottom: 28px;
+}
+h1 {
+margin: 0 0 6px;
+font-size: 2.4rem;
+letter-spacing: 0.5px;
+}
+.untertitel {
+margin: 0 0 22px;
+color: var(--grau);
+}
+
+#suche {
+width: 100%;
+max-width: 520px;
+padding: 15px 20px;
+font-size: 1.1rem;
+color: var(--text);
+background: var(--karte);
+border: 2px solid var(--rand);
+border-radius: 999px;
+text-align: center;
+}
+#suche:focus {
+outline: none;
+border-color: var(--blau);
+box-shadow: 0 0 0 4px rgba(79, 140, 255, 0.15);
+}
+#suche::placeholder {
+color: var(--grau);
+}
+
+/* Filter */
+.filter {
+text-align: center;
+margin-bottom: 26px;
+}
+
+.chips {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 8px;
+margin-bottom: 16px;
+}
+.chip {
+background: var(--karte);
+color: var(--text);
+border: 1px solid var(--rand);
+border-radius: 999px;
+padding: 7px 16px;
+font-size: 0.9rem;
+cursor: pointer;
+}
+.chip:hover {
+border-color: var(--blau);
+}
+.chip.aktiv {
+background: var(--blau);
+border-color: var(--blau);
+color: white;
+}
+
+.filter-zeile {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-end;
+gap: 12px;
+}
+.filter-zeile label {
+display: flex;
+flex-direction: column;
+gap: 4px;
+font-size: 0.8rem;
+color: var(--grau);
+text-align: left;
+}
+.filter-zeile input,
+.filter-zeile select {
+background: var(--karte);
+color: var(--text);
+border: 1px solid var(--rand);
+border-radius: 8px;
+padding: 9px 12px;
+font-size: 0.95rem;
+width: 150px;
+}
+.filter-zeile input:focus,
+.filter-zeile select:focus {
+outline: none;
+border-color: var(--blau);
+}
+
+#zuruecksetzen {
+background: transparent;
+color: var(--grau);
+border: 1px solid var(--rand);
+border-radius: 8px;
+padding: 9px 14px;
+cursor: pointer;
+}
+#zuruecksetzen:hover {
+color: var(--text);
+border-color: var(--grau);
+}
+
+.hinweis {
+margin: 12px 0 0;
+font-size: 0.8rem;
+color: var(--grau);
+}
+#zaehler {
+margin: 6px 0 0;
+font-weight: 600;
+}
+
+/* Karten-Raster */
+.raster {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 16px;
+}
+
+.karte {
+background: var(--karte);
+border: 1px solid var(--rand);
+border-top: 4px solid var(--akzent);
+border-radius: 14px;
+padding: 18px;
+transition: transform 0.15s, box-shadow 0.15s;
+}
+.karte:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.kategorie {
+display: inline-block;
+font-size: 0.75rem;
+color: var(--akzent);
+border: 1px solid var(--akzent);
+border-radius: 999px;
+padding: 2px 10px;
+}
+.karte h2 {
+margin: 10px 0 12px;
+font-size: 1.15rem;
+}
+
+.zeile {
+display: flex;
+justify-content: space-between;
+gap: 10px;
+padding: 7px 0;
+border-top: 1px solid var(--rand);
+font-size: 0.9rem;
+}
+.zeile span:first-child {
+color: var(--grau);
+}
+.zeile span:last-child {
+font-weight: 600;
+text-align: right;
+}
+
+.nichts {
+grid-column: 1 / -1;
+text-align: center;
+color: #f87171;
+}
