@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meine Bibliothek</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Meine Bibliothek</h1>
+<p class="hinweis">Suche nach einem Eintrag, z. B. „Tetris“ oder „1984“.</p>
+<select id="filter">
+<option value="Alle">Alle Kategorien</option>
+</select>
+<input id="suche" type="search" list="vorschlaege"
+placeholder="Name eingeben ..." autocomplete="off">
+<datalist id="vorschlaege"></datalist>
+<div id="liste"></div>
+<div id="ergebnis"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
